@@ -72,8 +72,35 @@ for i in range(0, 6):
 """
 Q6 pattern
 """
+"""
 for i in range(0,5):
     print(" ")
     for j in range(1,6):
         print(j, end=" ")
-        
+"""
+
+"""
+Q7 Pattern
+"""
+"""
+count = 1
+for i in range(0, 5):
+    print(" ")
+    for j in range(0, 5):
+        print("%02d" % count, end=" ")
+        count += 1
+"""
+"""
+Q8 Pattern
+"""
+for i in range(5,0,-1):
+    symbol = i%2
+    print(" ")
+    print(symbol, end=" ")
+    for j in range(1, i):
+      if symbol == 1:
+         symbol = 0
+         print(symbol, end=" ")
+      else:
+         symbol = 1
+         print(symbol, end=" ")
